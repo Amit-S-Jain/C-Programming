@@ -1,0 +1,16 @@
+Hello, Welcome to this C programming practical examples.
+Some basic things you have to remember while coding in C are as follows:
+1. Every C program must be saved with ".c" extension.
+2. The structure of C programs is as follows:
+   #include<stdio.h>                                       //Here every c program sholud start with header files. Header file is that file in which inbuilt functions are stored. from this file, we directly call these function without declaring and defining these functions. 
+   // #include<Header_files_which_you_want_to_include.h>
+   int main()                                              //main is a function which is most important one. the C programs are start their execution from this main function. all the statements withing this main function are executed sequentially. Before declaring or defining any function we have to mention their return type. return type means the data type of the result which will be returned to calling step. Here we taken int return type. hence at the end statment of this function will be retun and an integer value or variable of integer type.
+   {                                                       //Every function is enclosed withing this opening and closing curly braces {}. The statement inside these curly braces are the part of this function(local part of function), The part outside these curly braces are not the part of function.(global part of the program)
+ 
+   
+   //Statements Local part of the function
+   
+   return 0;                                              //returning an integer value.
+   }
+3. Every statement in the C program shold be end with semicolon (;). it is the fullstop in C.
+4. // and /* are used to give comment in the C. in further programs we will see comments in C.
